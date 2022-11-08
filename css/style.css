@@ -1,0 +1,92 @@
+/* © Victor Loots, 2022
+/*
+/* Fonts */
+@font-face {
+  font-family: 'nymphetteregular';
+  src: url('../fonts/nymphette-webfont.eot');
+  src: url('../fonts/nymphette-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/nymphette-webfont.woff2') format('woff2'),
+    url('../fonts/nymphette-webfont.woff') format('woff'),
+    url('../fonts/nymphette-webfont.ttf') format('truetype'),
+    url('../fonts/nymphette-webfont.svg#nymphetteregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* 
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+/* Standards */
+body {
+  min-height: 100%;
+  color:
+    #191919;
+  background-color: #f1d0c7;
+
+}
+
+#container {
+  margin: 50px auto;
+  width: 750px;
+  height: 650px;
+  position: relative;
+  background-image: url(../img/ricepaper.png);
+  padding: 20px;
+}
+
+h1,
+h2 {
+  font-family: 'Miss Fajardose', cursive;
+  font-size: 6em;
+  font-weight: 100;
+}
+h1{
+  padding: 100px 0 25px 0;
+ 
+
+}
+h2 {
+  color: #5995b8;
+  padding: 25px 0 100px 0;
+}
+
+p {
+  font-family: 'Clicker Script', cursive;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.icoon {
+
+  font-family: 'nymphetteregular';
+  font-size: 2em;
+  
+}
+
+.icoon_boven,
+.icoon_onder {
+  color: #c92169;
+  position: absolute;
+  text-align: center;
+
+}
+
+.icoon_boven {
+  top: 0;
+  width: 144px;
+  left: calc(50% - 72px) ;
+ 
+}
+
+.icoon_onder {
+  bottom: 0;
+  width: 150px;
+  left: calc(50% - 75px);
+}
